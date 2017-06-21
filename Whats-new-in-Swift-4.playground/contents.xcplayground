@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='macos' display-mode='rendered'>
     <pages>
+        <page name='Index'/>
         <page name='Table of contents'/>
-        <page name='One-sided ranges'/>
-        <page name='Strings'/>
-        <page name='private in same-file extensions'/>
-        <page name='Key paths'/>
-        <page name='Encoding and decoding'/>
-        <page name='Associated type constraints'/>
-        <page name='Dictionary and Set enhancements'/>
-        <page name='swapAt'/>
-        <page name='reduce with inout'/>
-        <page name='Generic subscripts'/>
-        <page name='NSNumber bridging'/>
-        <page name='Composing classes and protocols'/>
+        <page name='Tools - Swift 4 hoje'/>
+        <page name='Tools - Xcode 9'/>
+        <page name='Source - Migracao'/>
+        <page name='Language - Access Control'/>
+        <page name='Language - Compondo classes e protocols'/>
+        <page name='Language - One-sided ranges'/>
+        <page name='Language - Strings'/>
+        <page name='Language - NSNumber bridging'/>
+        <page name='Language - Dictionary and Set enhancements'/>
+        <page name='Language - Generic inheritance'/>
+        <page name='Language - Generic subscripts'/>
+        <page name='Language - Smart Key paths'/>
+        <page name='Language - Encoding and decoding'/>
+        <page name='Referencias'/>
     </pages>
 </playground>

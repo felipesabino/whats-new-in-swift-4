@@ -1,16 +1,19 @@
 /*:
- [Table of contents](Table%20of%20contents) • [Previous page](@previous) • [Next page](@next)
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next)
 
  ## Generic subscripts
 
- Courtesy of [SE-0148][SE-0148], subscripts can now have generic arguments and/or return types.
+ Spec: [SE-0148][SE-0148]
+ 
+ Subscripts agora podem ter argumentos e retornos genéricos.
  
  [SE-0148]: https://github.com/apple/swift-evolution/blob/master/proposals/0148-generic-subscripts.md "Swift Evolution Proposal SE-0148: Generic Subscripts"
  
- The canonical example is a type that represents JSON data: you can define a generic subscript to have the callerʼs context define the expected return type.
+ O exemplo abaixo usa um tipo que representa dados JSON: você pode definir um subscrit genérico que tem o tipo dependendo do contexto quando ele  é chamado.
+ 
  */
 struct JSON {
-    fileprivate var storage: [String:Any]
+    private var storage: [String:Any]
 
     init(dictionary: [String:Any]) {
         self.storage = dictionary
@@ -31,7 +34,7 @@ let json = JSON(dictionary: [
 let population: Int? = json["population"]
 
 /*:
- Another example: a subscript on `Collection` that takes a generic sequence of indices and returns an array of the values at these indices:
+ Outro exemplo é um subscription em uma `Collection` que pega uma sequência genérica de índices e retorna um array com os valores daqueles índices:
  */
 extension Collection {
     subscript<Indices: Sequence>(indices indices: Indices) -> [Element] where Indices.Element == Index {
@@ -44,6 +47,18 @@ extension Collection {
 }
 
 let words = "Lorem ipsum dolor sit amet".split(separator: " ")
+
 words[indices: [1,2]]
 
-/*: [Table of contents](Table%20of%20contents) • [Previous page](@previous) • [Next page](@next) */
+/*: 
+
+ Reparou que String agora tem `.split`?! 
+ 
+ Antes isso teria que ser feito através de `.characters`
+
+ ```
+ "Lorem ipsum... ".characters.split{" "}.map(String.init) // 😰
+ ```
+ 
+
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */

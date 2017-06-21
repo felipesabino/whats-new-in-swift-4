@@ -1,10 +1,10 @@
 # Whatʼs new in Swift 4
 
-An Xcode playground showcasing the new features in Swift 4.0. As seen in the [Whatʼs New in Swift session at WWDC 2017][WWDC 2017 402].
+Adaptação do fork original do Playground do [Ole Begemann][Ole Begemann] para o [#3 Swift SP || Novidades no Swift 4][meetup] com comentários e descrições traduzidos para _pt-br_ 🇧🇷. Algumas mudanças também foram feitas para ter um formato mais próximo de uma aprerentação, ao invés de showcase.
 
-Written by [Ole Begemann][Ole Begemann], May 2017.
+Esse playground demonstra diversas funcionalidades do Swift 4.0 também vistas em ['Whatʼs New in Swift' no WWDC 2017][WWDC 2017 402].
 
-The playground requires Swift 4. Xcode 9 includes Swift 4 by default ([download Xcode 9 beta from developer.apple.com][Xcode 9]). You can also run it in Xcode 8.3, but you need to install [the latest Swift 4.0 snapshot from swift.org][Snapshot downloads] (donʼt worry, itʼs easy).
+Esse playground necessita de Swift 4 onde o Xcode 9 inclui Swift 4 por default ([download do Xcode 9 beta de developer.apple.com][Xcode 9]). Você também pode rodar ele no Xcode 8.3, mas para isso você tem que [instalar o último snapshot do Swift 4 do swift.org][Snapshot downloads] (calma que é bem simples).
 
 ![Screenshot of the playground in Xcode 8.3][Playground screenshot]
 
@@ -13,3 +13,4 @@ The playground requires Swift 4. Xcode 9 includes Swift 4 by default ([download 
 [Xcode 9]: https://developer.apple.com/download/
 [Snapshot downloads]: https://swift.org/download/#snapshots
 [Playground screenshot]: playground-screenshot.png
+[meetup]: https://www.meetup.com/Swift-Sao-Paulo/events/240731536/
