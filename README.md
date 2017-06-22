@@ -1,6 +1,6 @@
 # Whatʼs new in Swift 4
 
-Adaptação do fork original do Playground do [Ole Begemann][Ole Begemann] para o [#3 Swift SP || Novidades no Swift 4][meetup] com comentários e descrições traduzidos para _pt-br_ 🇧🇷. Algumas mudanças também foram feitas para ter um formato mais próximo de uma aprerentação, ao invés de showcase.
+Adaptação do fork original do Playground do [Ole Begemann][Ole Begemann] para o [#3 Swift SP || Novidades no Swift 4][meetup] com comentários e descrições traduzidos para _pt-br_ 🇧🇷. Algumas mudanças também foram feitas para ter um formato mais próximo de uma apresentação, ao invés de showcase.
 
 Esse playground demonstra diversas funcionalidades do Swift 4.0 também vistas em ['Whatʼs New in Swift' no WWDC 2017][WWDC 2017 402].
 
