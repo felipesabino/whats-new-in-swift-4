@@ -40,4 +40,6 @@ extension MyView: HeaderView {
 
 MyController(header: MyView()) // works
 
-/*: [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
+/*:
+ 
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */

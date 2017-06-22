@@ -35,4 +35,6 @@ let array = SortedArray(unsorted: [3,1,2])
 // storage _não é visível_ aqui (diferente do fileprivate)
 // array.storage // error: 'storage' is inaccessible due to 'private' protection level
 
-/*: [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
+/*:
+ 
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */

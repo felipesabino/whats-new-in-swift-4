@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='rendered'>
+<playground version='6.0' target-platform='macos' display-mode='raw'>
     <pages>
         <page name='Index'/>
         <page name='Table of contents'/>
@@ -13,9 +13,10 @@
         <page name='Language - NSNumber bridging'/>
         <page name='Language - Dictionary and Set enhancements'/>
         <page name='Language - Generic inheritance'/>
-        <page name='Language - Generic subscripts'/>
         <page name='Language - Smart Key paths'/>
+        <page name='Language - Generic subscripts'/>
         <page name='Language - Encoding and decoding'/>
+        <page name='Fin'/>
         <page name='Referencias'/>
     </pages>
 </playground>

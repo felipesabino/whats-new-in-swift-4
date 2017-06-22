@@ -7,7 +7,7 @@
  
  Esse spec define um modo de qualquer tipo (classes, structs e enums) de se armazenar e serializar ao implementar o protocol `Codable`.
  
- Em vários casos adicionar o protocolo `Codable` vai ser tudo que será necessário jea que o compilador vai gerar uma implementação default se todos os membros do seu tipo forem implementarem também o protocolo `Codable`. Você pode fazer override do comportamento padrão para customizar como essa serialização ocorre.
+ Em vários casos adicionar o protocolo `Codable` vai ser tudo que será necessário já que o compilador vai gerar uma implementação default se todos os membros do seu tipo forem implementarem também o protocolo `Codable`. Você pode fazer override do comportamento padrão para customizar como essa serialização ocorre.
  
  [SE-0166]: https://github.com/apple/swift-evolution/blob/master/proposals/0166-swift-archival-serialization.md "Swift Evolution Proposal SE-0166: Swift Archival & Serialization"
 
@@ -59,4 +59,6 @@ String(data: jsonData, encoding: .utf8)
 let decoder = JSONDecoder()
 let decoded = try decoder.decode([Card].self, from: jsonData)
 
-/*: [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
+/*:
+ 
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */

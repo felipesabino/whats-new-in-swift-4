@@ -18,14 +18,14 @@
  */
 let letters = ["a","b","c","d"]
 let numberedLetters = zip(1..., letters)
-Array(numberedLetters)
+//print(Array(numberedLetters))
 
 /*:
  ### Collection subscripts
  
  Quando one-sided range é usado em um subscript de uma collection, o `startIndex` ou `endIndex` "preenchem" o limite inferior ou superior, respectivamente.
  */
-let numbers = [1,2,3,4,5,6,7,8,9,10]
+let numbers = ["a","b","c","d", "e", "f", "g", "h"]
 numbers[5...] // instead of numbers[5..<numbers.endIndex]
 
 /*:
@@ -46,4 +46,6 @@ case ..<0:
 default:
     fatalError("unreachable") //  Nota-se que o compilador não sabe (ainda?) se todos os casos do `switch` foram tratados.
 }
-/*: [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
+/*:
+ 
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */

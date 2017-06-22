@@ -19,12 +19,23 @@ let dict = Dictionary(uniqueKeysWithValues: zip(1..., names))
 dict[2]
 
 /*:
+ ### Grouping a sequence
+ 
+ É bem mais simples agrupar valores em buckets agora. Por exemplo dividir palavras em uma lista de palavras agrupadas pela letra inicial:
+ */
+let contacts = ["Julia", "Susan", "John", "Alice", "Alex"]
+let grouped = Dictionary(grouping: contacts, by: { $0.first! })
+grouped
+
+/*:
  ### Merging initializer and `merge` method
  
  Especifica como que chaves duplicadas devem ser tratadas quando criando um `Dictionary` a partir de uma sequêcia ou quando incorporando uma sequência à um `Dictionary` já existente.
  */
 let duplicates = [("a", 1), ("b", 2), ("a", 3), ("b", 4)]
-let letters = Dictionary(duplicates, uniquingKeysWith: { (first, _) in first })
+let letters = Dictionary(duplicates, uniquingKeysWith: { (first, _) in
+    first
+})
 letters
 
 /*:
@@ -60,7 +71,7 @@ frequencies
 /*:
  ### Dictionary-specific `map` and `filter`
  
- `filter` agora retorna um `Dictionary` e não um `Array`. Na mesma linha, o novo métdo `mapValues` transforma os valores e preserva a estrutua do `Dictionary`
+ `filter` agora retorna um `Dictionary` e não um `Array`. Na mesma linha, o novo método `mapValues` transforma os valores e preserva a estrutua do `Dictionary`
  */
 let filtered = dict.filter {
     $0.key % 2 == 0
@@ -80,12 +91,5 @@ let filteredSet = set.filter { $0 % 2 == 0 }
 type(of: filteredSet)
 
 /*:
- ### Grouping a sequence
  
- É bem mais simples agrupar valores em buckets agora. Por exemplo dividir palavras em uma lista de palavras agrupadas pela letra inicial:
- */
-let contacts = ["Julia", "Susan", "John", "Alice", "Alex"]
-let grouped = Dictionary(grouping: contacts, by: { $0.first! })
-grouped
-
-/*: [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */

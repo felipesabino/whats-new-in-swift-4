@@ -27,7 +27,11 @@ class Dog : Cat<(Int, Int)> {
     override func play(game: String?) {}
     
     // 'where' agora é a superclass
-    override func sleep(where: Bed) {}
+    override func sleep(where: Bed) {
+        
+    }
 }
 
-/*: [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
+/*:
+ 
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */

@@ -27,7 +27,7 @@
  ---
  
  
- _Me desculpem adiantado pela mistura de pt-br e en-us, principalmente em termos um pouco mais técnicos 😅_
+ _Desculpem-me adiantado pela mistura de pt-br e en-us, principalmente em termos um pouco mais técnicos 😅_
  
 [Começar!](@next)
  

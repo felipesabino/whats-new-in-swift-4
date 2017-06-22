@@ -1,6 +1,6 @@
 /*:
  
- [Índice](Table%20of%20contents) • [Página anterior](@previous)
+ [Índice](Table%20of%20contents)
  
  
  # Referências
@@ -14,6 +14,6 @@
  - [Xcode 9 Release notes](http://adcdownload.apple.com/WWDC_2017/Xcode_9_beta/Xcode_9_beta_Release_Notes.pdf) (Necessita estar logado com uma conta de Apple developer para acessar)
  
  
- [Índice](Table%20of%20contents) • [Página anterior](@previous)
+ [Índice](Table%20of%20contents)
  */
 

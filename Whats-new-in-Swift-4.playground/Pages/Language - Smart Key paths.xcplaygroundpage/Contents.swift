@@ -45,13 +45,5 @@ let nameKeyPath = authorKeyPath.appending(path: \.name) // you can omit the type
 sicp[keyPath: nameKeyPath]
 
 /*:
- ### Key paths for subscripts
  
- Key paths também vão funcionar com subscripts. O que vai ser bem conveniente para se navegar por collections como `Array`s e `Dictionary`s.
- 
- Essa funciionalidade ainda não está implmentada no snapshot atual.
- */
-// sicp[keyPath: \Book.authors[0].name]
-// INTERNAL ERROR: feature not implemented: non-property key path component
-
-/*: [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */

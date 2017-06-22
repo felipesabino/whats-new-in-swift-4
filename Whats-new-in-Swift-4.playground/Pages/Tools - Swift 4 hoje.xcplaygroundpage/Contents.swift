@@ -13,8 +13,6 @@
 1. Execute/Rode o instalador
 1. No Xcode, vá em _Xcode > Toolchains > Manage Toolchains…_ e escolha o snapshot do Swift 4
 
- 
- ![easy][xcode-8-3-toolchain-dialog]
 
 
  ## Detalhes, detalhes...

@@ -14,4 +14,6 @@ import Foundation
 let n = NSNumber(value: UInt32(543))
 let v = n as? Int8 // nil in Swift 4. Isso seria 31 no Swift 3, já que 543 % 2^8 = 31
 
-/*: [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
+/*:
+ 
+ [Índice](Table%20of%20contents) • [Página anterior](@previous) • [Próxima página](@next) */
